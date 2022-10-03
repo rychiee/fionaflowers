@@ -1,0 +1,125 @@
+.section5 {
+    width: 100%;
+    height: auto;
+}
+
+.sec5background {
+    width: 100%;
+    height: 743px;
+    background-image: url('../../img/bg-sec5.jpg');
+    display: flex;
+}
+
+.sec5content {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sec5part2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    transition: 1s;
+}
+
+@media screen and (max-width: 1200px) {
+    .sec5part2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        transition: 0.5s;
+    }
+}
+
+.sec5part2Cont {
+    width: 520px;
+    height: 400px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+.sec5part2Cont span {
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 4.5px;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.sec5part2Cont h2 {
+    color: #ffffff;
+    font-family: "playfair display bold";
+    font-size: 55px;
+    line-height: 75px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.sec5part2Cont p {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: poppins,sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 20px 0 100px 0;
+}
+
+.sec5part2 a {
+    font-family: "Poppins",sans-serif;
+    padding: 30px 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #eeaa9c;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 4.5px;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sec5part2 a:hover {
+    background-color: #ee9c9c;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 800px) {
+    .sec5part2Cont {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sec5part2Cont h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .sec5part2Cont p {
+        color: #ffffff;
+        font-size: 12px;
+        font-family: poppins,sans-serif;
+        line-height: 25px;
+        font-weight: 400;
+        margin: 20px 0 50px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sec5part2Cont h2 {
+        font-size: 35px;
+    }
+
+    .sec5part2Cont a {
+        padding: 20px 20px;
+    }
+}

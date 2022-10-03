@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Top Part  */
+
+.headTop {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.HeadCall{
+    display: flex;
+    flex-direction: row;
+}
+
+.callp1 {
+    margin: auto;
+    text-align: right;
+}
+
+.callp1 span {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.callp1 a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: black;
+}
+
+.callp2 {
+    margin: auto 15px;
+}
+
+.HeaderPhoneIcon {
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #eeaa9c;
+    border-radius: 40px;
+}
+
+.HeadLogo img{
+    width: 144px;
+    height: 154px;
+}
+
+.HeadCard {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    position: relative;
+}
+
+.shopp1 {
+    margin: auto 15px;
+}
+
+.HeaderBagIcon {
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #eeaa9c;
+    border-radius: 40px;
+}
+
+.shopp2 {
+    margin: auto;
+}
+
+.shopp2 span:first-child {
+    color: grey;
+}
+
+.shopp2 span:last-child {
+    color: black;
+}
+
+.shopp2 span:last-child span {
+    color: #aece89;
+}
+
+/* Header Bottom Part  */
+
+.headBottom {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(174, 206, 137);
+}
+
+.generalNav {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.generalUl {
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headBottom nav ul li {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    transition: 0.5s;
+}
+
+.alastChild {
+    border-right: 1px solid rgb(174, 206, 137);
+}
+
+.headBottom nav ul li a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #232a34;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 500;
+    border-right: 1px solid grey;
+}
+
+.headBottom nav ul li:hover{
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.headBottom nav ul li:hover a{
+    color: white;
+    transition: 0.3s;
+}
+
+.dropdown1 {
+    width: 100%;
+    max-width: 112.5px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.dropdown1:hover {
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.homeDroppedMenu {
+    font: 16px;
+    font-weight: 500;
+    width: 225px;
+    height: 105px;
+    display: flex;
+    background-color: #8aa170;   
+}
+
+
+.homeDroppedMenu nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeDroppedMenu nav ul {
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    background-color: #8aa170;
+}
+
+.homeDroppedMenu nav ul li{
+    width: 100%;
+    height: 40px;
+}
+
+.homeDroppedMenu nav ul li:hover{
+    background-color: rgb(174, 206, 137);
+}
+
+.homeDroppedMenu nav ul li a {
+    border: none;
+    color: white;
+}
+
+.dropdown2 {
+    width: 100%;
+    max-width: 112.5px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.dropdown2:hover {
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.homeDroppedMenu2 {
+    font: 16px;
+    font-weight: 500;
+    width: 225px;
+    height: 105px;
+    display: flex;
+    background-color: #8aa170;
+    
+}
+
+.homeDroppedMenu2 nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeDroppedMenu2 nav ul {
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    background-color: #8aa170;
+}
+
+.homeDroppedMenu2 nav ul li{
+    width: 100%;
+    height: 40px;
+}
+
+.homeDroppedMenu2 nav ul li:hover{
+    background-color: rgb(174, 206, 137);
+}
+
+.homeDroppedMenu2 nav ul li a {
+    border: none;
+    color: white;
+}
+
+.dropdown3 {
+    width: 100%;
+    max-width: 112.5px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.dropdown3:hover {
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.homeDroppedMenu3 {
+    font: 16px;
+    font-weight: 500;
+    width: 225px;
+    height: 105px;
+    display: flex;
+    background-color: #8aa170;
+    
+}
+
+.homeDroppedMenu3 nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeDroppedMenu3 nav ul {
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    background-color: #8aa170;
+}
+
+.homeDroppedMenu3 nav ul li{
+    width: 100%;
+    height: 40px;
+}
+
+.homeDroppedMenu3 nav ul li:hover{
+    background-color: rgb(174, 206, 137);
+}
+
+.homeDroppedMenu3 nav ul li a {
+    border: none;
+    color: white;
+}
+
+.dropdown4 {
+    width: 100%;
+    max-width: 112.5px;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.dropdown4:hover {
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.homeDroppedMenu4 {
+    font: 16px;
+    font-weight: 500;
+    width: 225px;
+    height: 105px;
+    display: flex;
+    background-color: #8aa170;
+    
+}
+
+.homeDroppedMenu4 nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeDroppedMenu4 nav ul {
+    width: 200px;
+    height: 80px;
+    margin: auto;
+    background-color: #8aa170;
+}
+
+.homeDroppedMenu4 nav ul li{
+    width: 100%;
+    height: 40px;
+}
+
+.homeDroppedMenu4 nav ul li:hover{
+    background-color: rgb(174, 206, 137);
+}
+
+.homeDroppedMenu4 nav ul li a {
+    border: none;
+    color: white;
+}
+
+.dropdown5 {
+    width: 100%;
+    max-width: 112.5px; 
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.dropdown5:hover {
+    background-color: #8aa170;
+    transition: 0.5s;
+}
+
+.homeDroppedMenu5 {
+    font: 16px;
+    font-weight: 500;
+    width: 225px;
+    height: 390px;
+    display: flex;
+    background-color: #8aa170;
+    
+}
+
+.homeDroppedMenu5 nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homeDroppedMenu5 nav ul {
+    width: 200px;
+    height: 360px;
+    margin: auto;
+    background-color: #8aa170;
+}
+
+.homeDroppedMenu5 nav ul li:first-child{
+    width: 100%;
+    height: 40px;
+}
+
+.homeDroppedMenu5 nav ul li{
+    width: 100%;
+    height: 80px;
+}
+
+.homeDroppedMenu5 nav ul li:hover{
+    background-color: rgb(174, 206, 137);
+}
+
+
+.homeDroppedMenu5 nav ul li a {
+    border: none;
+    color: white;
+}
+
+/* Mobile Menu */
+
+.headerForMobile {
+    display: none;
+}
+
+.HeadMiddleDiv {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.HeadMiddleDiv div{
+    margin: auto;
+}
+
+.HeadMiddleDiv div span{
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.HeadTopMobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobHeaderLogo {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: auto;
+}
+
+.menuReactIconDiv,
+.bagReactIconDiv {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    position: relative;
+}
+
+.menuReactIconDiv svg,
+.bagReactIconDiv svg {
+    font-size: 25px;
+    margin: auto;
+}
+
+.mobileMenuActive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: none;
+}
+
+.menuCancel {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.344);
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.mobMenuLists {
+    width: 320px;
+    height: 100vh;
+    background-color: #eeaa9c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.mobMenuLists li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+    align-items: center;
+    background-color: #eeaa9c;
+}
+
+.mobMenuLists li a {
+    text-decoration: none;
+    outline: 0;
+    color: #ffffff;
+    margin: auto 30px;
+    font-family: "Playfair Display bold";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.contactList {
+    height: 70px !important;
+    background-color: #d49b8d !important;
+}
+
+.mobMenuLists li a:last-child {
+    font-family: inherit;
+    font-weight: 100;
+}
+
+.teleReactIcon {
+    color: white;
+    margin: 0 15px 0 0;
+}
+
+.DrpIcon {
+    color: #ffffff;
+    font-size: 25px;
+    margin: auto 20px;
+}
+
+
+.mobDropped {
+    display: none;
+}
+
+.mobDropped li {
+    background-color: #d49b8d !important;
+    height: 35px !important;
+}
+
+@media screen and (max-width: 1020px) {
+    .HeaderForPc {
+        display: none;
+    }
+
+    .headerForMobile {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mobileMenuActive {
+        top: auto;
+    }
+
+    .HeadMiddleDiv {
+        width: 300px;
+        height: 100px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .mobHeaderLogo {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin: auto;
+    }
+    
+    .menuReactIconDiv,
+    .bagReactIconDiv {
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }
+}
+

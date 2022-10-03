@@ -1,0 +1,141 @@
+.serviceSection {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.serviceContentDiv {
+    max-width: 1200px;
+    width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicesList {
+    width: 270px;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    background-color: #eff4f3;
+}
+
+.servicesListContent {
+    margin: auto;
+    line-height: 35px;
+}
+
+.servicesList h2 {
+    color: #424443;
+    text-transform: uppercase;
+    font-family: "Playfair Display bold";
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.servicesList li {
+    color: #8f8f8f;
+    cursor: pointer;
+}
+
+.servicesList li a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.servicesList li:hover {
+    color: #eeaa9c;
+}
+
+.servicesList li a:hover {
+    color: #eeaa9c;
+}
+
+.ServiceContent {
+    width: 770px;
+    height: auto;
+}
+
+.ServiceContent img {
+    width: 100%;
+}
+
+.ServiceContent h2 {
+    color: #424443;
+    font-family: "Playfair Display bold";
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;
+    margin: 25px 0;
+}
+
+.ServiceContent p {
+    color: #8f8f8f;
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+    line-height: 1.85em;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 1300px) {
+    .ServiceContent {
+        width: 700px;
+    }    
+}
+
+@media screen and (max-width: 1200px) {
+    .ServiceContent {
+        width: 650px;
+    }    
+}
+
+@media screen and (max-width: 1100px) {
+    .ServiceContent {
+        width: 550px;
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    .ServiceContent {
+        width: 500px;
+    }    
+
+}
+
+@media screen and (max-width: 900px) {
+    .serviceContentDiv {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .servicesList {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .servicesListContent {
+        margin: 0;
+    }
+
+    .ServiceContent {
+        width: 100%;
+        margin: 20px;
+    }    
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .serviceContentDiv {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .ServiceContent h2 {
+        font-size: 20px;
+    }    
+}

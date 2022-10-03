@@ -1,0 +1,80 @@
+.servicesPage {
+    width: 100%;
+    height: auto;
+}
+
+.offersDiv {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.offers {
+    max-width: 1200px;
+    width: 1200px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.eachOffer {
+    width: 370px;
+    height: 450px;
+    font-family: "Playfair Display bold";
+    letter-spacing: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.eachOffer img {
+    width: 100%;
+}
+
+.eachOffer h2 {
+    width: 100%;
+    font-size: 18px;
+    margin: 30px 0;
+    color: #424443;
+}
+
+.eachOffer button {
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 73px);
+    color: #fff;
+    background-color: #eeaa9c;
+    border: none;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.eachOffer button:hover {
+    background-color: #ee9c9c;
+    transition: 0.5s;
+}
+
+.eachOffer button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+    .eachOffer {
+        width: 300px;
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .eachOffer {
+        width: 80%;
+    }
+}

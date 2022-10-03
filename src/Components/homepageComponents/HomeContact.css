@@ -1,0 +1,119 @@
+.HomeContactSection {
+    width: 100%;
+    height: auto;
+}
+
+.contactContent {
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    display: flex;
+    z-index: 0;
+    transition: 1s;
+}
+
+.homeContacts {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto auto;
+    display: flex;
+}
+
+.EachContact {
+    min-width: 250px;
+    width: 400px;
+    height: 300px;
+}
+
+.contactPart1 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    background: linear-gradient(transparent 50%, #ededed 50%)
+}
+
+.greenIcon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+    background-color: rgb(174, 206, 137);
+}
+
+.contactPart2 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #ededed;
+}
+
+.contact2 > .contactPart2 {
+    justify-content: center;
+}
+
+.contactPart2 p {
+    color: #424443;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.35px;
+    font-family: "playfair display bold";
+    font-weight: 700;
+}
+
+.contactPart2 a {
+    font-size: 13px;
+    color: #eeaa9c;
+    text-decoration: none;
+}
+
+.contactPart2 span {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+.forBorder {
+    width: 99%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 0.5px solid #b1b1b1;
+    border-right: 0.5px solid #b1b1b1;
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .contactContent {
+        width: 100%;
+        height: auto;
+    }
+
+    .homeContacts {
+        flex-wrap: wrap;
+    }
+
+    .EachContact {
+        width: auto;
+        margin: auto;
+    }
+
+    .forBorder {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .EachContact {
+        width: 100%;
+        min-width: 0px;
+    }
+}

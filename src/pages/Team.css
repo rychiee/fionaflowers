@@ -1,0 +1,104 @@
+.teamPage {
+    width: 100%;
+    height: auto;
+}
+
+.teamDiv {
+    width: 100%;
+    height: auto;
+}
+
+.teamDivDescription {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.teamDivDescription h1 {
+    font-size: 45px;
+    color: #424443;
+    font-family: "Playfair Display bold";
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.teamDivDescription span {
+    display: block;
+    color: #aece89;
+    margin: 15px 0;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4.5px;
+    font-family: Poppins;
+}
+
+.membersDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 100px 0;
+}
+
+.members {
+    max-width: 1200px;
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.eachMember {
+    width: 370px;
+    height: auto;
+    text-align: center;
+}
+
+.eachMember h2 {
+    font-size: 20px;
+    color: #424443;
+    font-family: "Playfair Display bold";
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.eachMember span {
+    line-height: 1.75em;
+    color: #8f8f8f;
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1300px) {
+    .eachMember{
+        width: 300px;
+    }
+
+    .eachMember img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .eachMember{
+        width: 250px;
+        margin: 20px;
+    }
+
+    .members {
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media screen and (max-width: 290px) {
+    .eachMember{
+        width: 90%;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,127 @@
+.section8 {
+    width: 100%;
+    height: auto;
+}
+
+.section8content {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto 100px auto;
+    
+}
+
+.sec8part1 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.section8description {
+    width: auto;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.section8description h1 {
+    font-family: "Playfair Display bold";
+    font-size: 40px;
+    color: #424443;
+    text-align: center;
+}
+
+.section8description p {
+    text-transform: uppercase;
+    color: #a2bc85;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 20px 0;
+}
+
+.sec8part2 {
+    height: auto;
+}
+
+.serviceDivs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.eachService {
+    width: 370px;
+    height: auto;
+    background-color: #eff4f3;
+    text-align: center;
+    margin: 40px 15px;
+}
+
+.eachService img {
+    width: 100%;
+}
+
+.eachService h1 {
+    font-family: "Playfair Display bold";
+    margin: 30px 0;
+    color: #424443;
+    letter-spacing: 4px;
+    font-size: 20px;
+}
+
+.eachService ul {
+    width: 70%;
+    margin: 0 auto 50px auto;
+    text-decoration: none;
+    line-height: 40px;
+    list-style: none;
+    color: #8f8f8f;
+}
+
+.eachService ul li {
+    border-top: 0.1px solid #8f8f8f;
+    font-size: 12px;
+} 
+
+.eachService ul li:first-child {
+    border: none;
+}
+
+.eachService p {
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #8f8f8f;
+}
+
+.eachService span {
+    color: #98b27b;
+}
+
+.eachService button {
+    margin: 30px 0;
+    color: #fff;
+    background-color: #eeaa9c;
+    border: none;
+    padding: 20px 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 11px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.eachService button:hover {
+    background-color: #ee9c9c;
+    transition: 0.5s;
+}
+
+
+@media screen and (max-width: 450px) {
+    .eachService {
+        width: 80%;
+    }
+}

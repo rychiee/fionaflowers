@@ -1,0 +1,214 @@
+.section9 {
+    width: 100%;
+    height: auto;
+    background-color: #aece89;
+}
+
+.section9content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.section9part1 {
+    width: 100%;
+    height: 180px;
+    background-color: #aece89;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.updateDiv1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.updateDiv1 h3 {
+    font-family: "Playfair Display bold";
+    font-size: 32px;
+    color: #424443;
+    margin: auto;
+}
+
+.updateDiv2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.updateDiv2 form {
+    margin: auto;
+}
+
+
+.email_input {
+    max-width: 370px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 12px;
+    border-bottom: 0.5px solid rgba(221,225,225,.4);
+    transition: all ease .3s;
+    font-family: inherit;
+}
+
+.email_input:hover {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: all ease .3s;
+
+}
+
+.email_input:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    transition: all ease .3s;
+    color: #4b4b4b;
+}
+
+.email_input::placeholder {
+    color: #4b4b4b;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+.submit_input {
+    color: #ffffff;
+    background-color: #98b27b;
+    letter-spacing: 3px;
+    padding: 20px 40px;
+    border: none;
+    font-weight: 600;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.submit_input:hover {
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+
+.section9part2 {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+
+.galleryDivs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.eachGallery {
+    width: 25%;
+    height: auto;
+    position: relative;
+    transition: 1s;
+}
+
+.eachGallery img {
+    width: 100%;
+}
+
+.eachGallery:hover .eachGalleryContent {
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.eachGalleryContent {
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    background-color: #000000a9;
+}
+
+.eachGalleryContent div {
+    margin: auto;
+    text-align: center;
+}
+
+.eachGalleryContent div h1 {
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 800;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+
+.eachGalleryContent div span {
+    font-size: 13px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 900px) {
+    .section9part1 {
+        width: 100%;
+        height: 250px;
+        background-color: #aece89;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .updateDiv1,
+    .updateDiv2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .section9part1 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .updateDiv2 {
+        height: 100%;
+        display: flex;
+        text-align: center;
+    }
+
+    .submit_input {
+        color: #ffffff;
+        background-color: #98b27b;
+        letter-spacing: 3px;
+        padding: 20px 40px;
+        border: none;
+        font-weight: 600;
+        margin: 30px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+  }
+
+  @media screen and (max-width: 350px) {
+
+    .updateDiv1 h3 {
+        font-size: 25px;
+    }
+
+  }
+
+

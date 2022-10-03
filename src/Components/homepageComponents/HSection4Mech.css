@@ -1,0 +1,72 @@
+.flowersAssort {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.eachAssortFlower {
+    max-width: 374px;
+    height: auto;
+    margin: 10px;
+}
+
+.eachAssortFlower img {
+    width: 100%;
+}
+
+.assortContent {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.assortContent a{
+    display: block;
+    text-decoration: none;
+    font-family: "Playfair Display bold";
+    font-size: 19px;
+    margin: 30px 0;
+    font-weight: 700;
+    color: #424443;
+}
+
+.assortContent span {
+    display: block;
+    color: #a2bc85;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+    margin: 20px 0;
+    font-size: 13px;
+}
+
+.assortContent button {
+    width: 160px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    margin: 30px 0;
+    color: white;
+    background-color: #eeaa9c;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.assortContent button:hover {
+    background-color: #ee9c9c;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 450px) {
+    .eachAssortFlower {
+        width: 80%;
+    }
+}

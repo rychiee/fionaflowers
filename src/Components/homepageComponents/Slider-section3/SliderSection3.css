@@ -1,0 +1,133 @@
+.sec3container-slider {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+@media screen and (max-width: 1400px) {
+  .sec3container-slider {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sec3container-slider {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sec3container-slider {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sec3container-slider {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sec3container-slider {
+    width: 300px;
+    height: 300px;
+  }
+
+  .btn-slidee {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .prevBtn {
+    right: 70px !important;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .sec3container-slider {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .sec3container-slider {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btn-slidee {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .prevBtn {
+    right: 60px !important;
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.active-anim {
+  opacity: 1;
+}
+
+.btn-slidee {
+  width: 70px;
+  height: 70px;
+  background: #aece89;
+  color: white;
+  border: none;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-slidee:hover {
+  background-color: #8aa170;
+}
+
+.btn-slidee span {
+  font-size: 20px;
+  font-family: "Playfair Display bold";;
+  pointer-events: none;
+}
+
+.prevBtn {
+  bottom: 0;
+  right: 90px;
+  transform: translateY(-60%);
+}
+
+
+.nextBtn {
+  bottom: 0;
+  right: 20px;
+  transform: translateY(-60%);
+}
+
+
+

@@ -1,0 +1,145 @@
+.section4 { 
+    width: 100%;
+    height: auto;
+}
+
+.sec4part1 {
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    display: flex;
+    z-index: 0;
+    transition: 1s;
+}
+
+.advantages {
+    width: 80%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto auto;
+    display: flex;
+}
+
+.EachAdvantage {
+    min-width: 250px;
+    width: 400px;
+    height: 300px;
+}
+
+.atvantagePart1 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    background: linear-gradient(transparent 50%, #ededed 50%)
+}
+
+.greenIcon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    border-radius: 50%;
+    background-color: rgb(174, 206, 137);
+}
+
+.atvantagePart2 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #ededed;
+}
+
+.advatntage2 > .atvantagePart2 {
+    justify-content: center;
+}
+
+.atvantagePart2 a {
+    color: #424443;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3.35px;
+    font-family: "playfair display bold";
+    font-weight: 700;
+}
+
+.atvantagePart2 span {
+    font-size: 13px;
+    color: #8f8f8f;
+}
+
+.forBorder {
+    width: 99%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 0.5px solid #b1b1b1;
+    border-right: 0.5px solid #b1b1b1;
+}
+
+
+.sec4part2 {
+    width: 100%;
+    height: auto;
+}
+
+.sec4part2Content {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+
+.sec4part2description {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.sec4part2description h1{
+    font-family: "Playfair Display bold";
+    font-size: 40px;
+    color: #424443;
+}
+
+.sec4part2description span {
+    display: block;
+    text-transform: uppercase;
+    color: #a2bc85;
+    letter-spacing: 4.5px;
+    font-weight: 700;
+    font-size: 10px;
+    margin: 10px 0;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .sec4part1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .advantages {
+        flex-wrap: wrap;
+    }
+
+    .EachAdvantage {
+        width: auto;
+        margin: auto;
+    }
+
+    .forBorder {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .EachAdvantage {
+        width: 100%;
+        min-width: 0px;
+    }
+}

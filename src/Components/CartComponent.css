@@ -1,0 +1,114 @@
+.cartContainer {
+    width: 250px;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #dde1e1;
+    padding: 16px;
+    cursor: auto;
+    position: block;
+    z-index: 10;
+}
+
+.emptySpan {
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+.eachCartItem {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cartImgs {
+    width: 70px;
+}
+
+.cartItemInfo {
+    width: 100%;
+}
+
+.cartItemInfo h2 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #424443;
+    font-family: "Playfair Display bold";
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+
+.cartItemInfo p {
+    color: #aece89 !important;
+    font-size: 16px !important;
+    margin: 10px 0 0 20px;
+    letter-spacing: 2px;
+}
+
+.priceInformation {
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 0.5px solid #dde1e1;
+    border-bottom: 0.5px solid #dde1e1;
+    text-align: right;
+    align-items: center;
+}
+
+.priceInformation span {
+    color: #8f8f8f;
+    font-size: 16px;
+}
+
+.priceRow {
+    color: #aece89 !important;
+    letter-spacing: 2px;
+}
+
+.cartButtons {
+    width: 100%;
+}
+
+.cartButtons button:first-child {
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    color: #eeaa9c;
+    background-color: transparent;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cartButtons button:first-child:hover {
+    color: #424443;
+    transition: 0.5s;
+}
+
+.cartButtons button:last-child {
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    color: white;
+    background-color: #eeaa9c;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cartButtons button:last-child:hover {
+    background-color: #ee9c9c;
+    transition: 0.5s;
+}

@@ -1,0 +1,58 @@
+.CustomerDiv{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.customerMessage {
+    max-width: 1200px;
+    height: auto;
+    margin: 100px auto;
+}
+
+@media screen and (max-width: 1300px) {
+    .customerMessage {
+        width: 90%;
+    }
+}
+
+.customerMessage h1 {
+    font-family: "Playfair Display bold";
+    font-size: 55px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #424443;
+    padding: 20px 0;
+}
+
+.customerMessage p {
+    color: #8f8f8f;
+    font-family: "Poppins",sans-serif;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.customerMessage p:last-child {
+    margin-top: 20px;
+}
+
+.webPackages {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.packageTitle {
+    text-align: center;
+    font-family: "Playfair Display bold";
+    font-size: 55px;
+    font-weight: 700;
+    color: #424443;
+}
+
+
+.eachPackage ul {
+    text-align: left !important;
+    line-height: 35px !important;
+}

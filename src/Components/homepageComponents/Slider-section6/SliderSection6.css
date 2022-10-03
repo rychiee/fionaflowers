@@ -1,0 +1,133 @@
+.containerSlider {
+  width: 1200px !important;
+  height: 250px !important;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+
+.Slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in
+  -out 0.4s;
+}
+
+.customerDiv {
+  width: auto;
+  height: 100%;
+  display: flex;
+  background:  linear-gradient(transparent 25%, transparent 25%, #eff4f3 25%, #eff4f3 25%)  
+}
+
+.customerDivContentH1 {
+  font-size: 25px;
+  font-family: "Playfair Display bold";
+  color: #424443;
+  margin: 10px;
+}
+
+.customerDivContentSpan {
+  font-size: 12.5px;
+  color: #8f8f8f;
+}
+
+.customerDivContent {
+  width: auto;
+  height: 80%;
+  margin: auto;
+}
+
+
+.customerDivImg {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50px;
+}
+
+@media screen and (max-width: 1250px) {
+  .containerSlider {
+    width: 80% !important;
+    height: 250px !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+  }
+
+  .customerDivContentH1 {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .containerSlider {
+    width: 80% !important;
+    height: 250px !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+  }
+
+  .customerDivContentH1 {
+    width: 80%;
+    font-size: 22px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .containerSlider {
+    width: 80% !important;
+    height: 250px !important;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+  }
+
+  .customerDivContentH1 {
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+  }
+}
+
+.activAnim {
+  opacity: 1;
+}
+  
+.btn-slide {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgb(174, 206, 137) !important;
+  border: 0 !important;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+  
+.btnSlide img {
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+.prev {
+  top: calc(50% + 32.5px) !important;
+  left: 20px;
+  transform: translateY(-60%);
+}
+
+.next {
+  top: calc(50% + 32.5px) !important;
+  right: 20px;
+  transform: translateY(-60%);
+}
